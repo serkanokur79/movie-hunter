@@ -1,0 +1,82 @@
+.movieMiniCard {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0.5rem;
+  cursor: pointer;
+  width: 6rem;
+  height: 12rem;
+}
+.movieMiniCard__imageContainer {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+}
+.movieMiniCard__image {
+  height: 8.4rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+.movieMiniCard__userScoreLogo {
+  width: 2.5rem;
+  margin: -1.6rem 3.8rem;
+}
+
+.movieMiniCard__content {
+  flex: 0.3;
+}
+
+.movieMiniCard__imageContainer {
+  display: flex;
+  padding: 0;
+}
+
+.movieMiniCard__title {
+  margin-top: 1.5rem;
+  margin-bottom: 0.2rem;
+  font-size: 0.7rem;
+}
+
+.movieMiniCard__infos {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.movieMiniCard__infoItem {
+  font-size: 0.9rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+@media (max-width: 600px) {
+  .movieMiniCard {
+    padding: 0.2rem 0.3rem;
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0.3rem;
+    cursor: pointer;
+    width: 12rem;
+    height: 23rem;
+  }
+  .movieMiniCard__image {
+    width: 10rem;
+    height: auto;
+    object-fit: cover;
+    border-radius: 0.8rem;
+  }
+  .movieMiniCard__imageContainer {
+    margin-bottom: -6rem;
+  }
+  .movieMiniCard__userScoreLogo {
+    width: 3rem;
+    margin: -1rem 1rem;
+  }
+}

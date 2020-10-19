@@ -1,0 +1,37 @@
+.tabSlider {
+  width: 100%;
+  max-width: 1150px;
+  margin: 0 auto;
+  height: auto;
+  background-color: white;
+  overflow: auto;
+}
+
+.tabSlider__titleContainer {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.tabSlider__title {
+  padding-left: 1rem;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.tabSlider__listContainer {
+  display: flex;
+  background-color: white;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-wrap: no-wrap;
+  min-height: 17rem;
+  overflow: auto;
+}
+@media (max-width: 600px) {
+  .tabSlider {
+    margin: 1rem 0;
+    background-color: white;
+    overflow: auto;
+  }
+}

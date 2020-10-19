@@ -1,0 +1,46 @@
+.personMiniCard {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+  margin: 0.5rem;
+  cursor: pointer;
+  width: 6rem;
+  height: 12rem;
+}
+.personMiniCard__imageContainer {
+  flex: 0.7;
+  display: flex;
+  flex-direction: column;
+}
+.personMiniCard__image {
+  height: 8.4rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+
+.personMiniCard__userScoreLogo {
+  width: 2rem;
+  margin: -1.2rem 0.5rem;
+  display: flex;
+  flex-direction: row;
+}
+
+.personMiniCard__content {
+  flex: 0.3;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.personMiniCard__imageContainer {
+  display: flex;
+  padding: 0;
+}
+
+.personMiniCard__title {
+  margin-top: 0rem;
+  margin-bottom: 0.1rem;
+  font-size: 0.7rem;
+}

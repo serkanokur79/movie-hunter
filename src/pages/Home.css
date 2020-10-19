@@ -1,0 +1,12 @@
+.home {
+  min-height: 100vh;
+  display: flex;
+  max-width: 1150px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+
+.home__row {
+  display: flex;
+  flex-grow: 1;
+}
